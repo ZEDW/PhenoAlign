@@ -1322,32 +1322,3 @@ if __name__ == '__main__':
     text_str_b = "重度腹痛"
     align_info_dict = MySSUExtractor.get_ssu_alignment_btw_texts( text_str_a, text_str_b, "user001" )
     print( json.dumps(align_info_dict, ensure_ascii=False, indent=4) )
-    # 将字典写入 JSON 文件
-    # 指定要写入的 JSON 文件名
-    # json_file = "output.json"
-    # with open(json_file, 'w', encoding='utf-8') as f:
-    #     json.dump(align_info_dict, f, ensure_ascii=False, indent=4)
-
-
-
-
-
-#     app = Flask(__name__)
-#     @app.route('/api/get_ssu_alignment_btw_texts', methods=['POST'])
-#     def api_get_ssu_alignment_btw_texts():
-#         MySSUExtractor = SSUExtractor() 
-#         # 获取 POST 请求中的数据
-#         data = request.json
-
-#         # 从请求中提取所需的参数
-#         text_str_a = data.get('text_str_a')
-#         text_str_b = data.get('text_str_b')
-#         user_id = data.get('user_id')
-
-#         # 调用函数并获取结果
-#         result = MySSUExtractor.get_ssu_alignment_btw_texts(text_str_a, text_str_b, user_id)
-
-#         # 返回结果
-#         return jsonify(result)
-# if __name__ == '__main__':
-#     app.run(host='127.0.0.1', port=9011, debug=True)
