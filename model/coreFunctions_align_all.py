@@ -1318,7 +1318,7 @@ if __name__ == '__main__':
     print( "\n\n*******************************************************")
     print( "[高级文本比对函数] get_ssu_alignment_btw_texts() [输出] ")
     print( "*******************************************************")
-    text_str_a = '甲硝唑'
-    text_str_b = "重度腹痛"
+    text_str_a = '严重发烧'
+    text_str_b = "重度发热"
     align_info_dict = MySSUExtractor.get_ssu_alignment_btw_texts( text_str_a, text_str_b, "user001" )
     print( json.dumps(align_info_dict, ensure_ascii=False, indent=4) )
