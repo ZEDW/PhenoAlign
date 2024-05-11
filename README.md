@@ -7,7 +7,7 @@ PhenoAlign is a tool designed for aligning medical text phenotype information. W
 
 # Annotation guideline：
 
-  The flowchart for aligning phenotype information is shown in Annotation Guideline.svg.
+  The expert annotation process for aligning phenotype information  is shown in Annotation Guideline.svg.
 
   PhenoSSU is an information template for characterizing phenotypic details that contains 17 attributes related to phenotypic concepts. These attributes can be divided into two categories according to the phenotypic details they characterized: (1) the attributes of the phrase-type phenotype, such as "severe cough" or "fever", including assertion, severity, frequency in population, temporary pattern, age specificity, sex specificity, characteristic of pain, time of duration, aggregating factors, releasing factors, body location, spatial pattern, polarity, and clinical stage for disease, and (2) the characteristics of the logic-type phenotype, such as "leukocyte 12.5 × 109/L", including specimen, analyte, and abnormality.
 
