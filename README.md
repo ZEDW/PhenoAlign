@@ -5,9 +5,10 @@ PhenoAlign is a tool designed for aligning medical text phenotype information. W
 
 2.Place the SimClassifier model within the PhenoAlign directory and execute the ../model/reFunctions_align_all.py code.
 
-Annotation guideline：
+# Annotation guideline：
 
-Guidelines for phenotype information alignment annotation.
+The flowchart for aligning phenotype information is shown in Annotation Guideline.svg.
+
 PhenoSSU is an information template for characterizing phenotypic details that contains 17 attributes related to phenotypic concepts. These attributes can be divided into two categories according to the phenotypic details they characterized: (1) the attributes of the phrase-type phenotype, such as "severe cough" or "fever", including assertion, severity, frequency in population, temporary pattern, age specificity, sex specificity, characteristic of pain, time of duration, aggregating factors, releasing factors, body location, spatial pattern, polarity, and clinical stage for disease, and (2) the characteristics of the logic-type phenotype, such as "leukocyte 12.5 × 109/L", including specimen, analyte, and abnormality.
 
 PhenoSSU alignment can be annotated in medical text using the BRAT, a process comprising two consecutive steps: PhenoSSU annotation and PhenoSSU association. Specifically, annotators should initially annotate the complete PhenoSSUs in two medical texts and then associate the "completely identical" and "partially similar" PhenoSSUs according to the semantic relationships of the PhenoSSUs. To illustrate the PhenoSSU alignment annotation, a specific example is provided below.
