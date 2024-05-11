@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Date    : 2022-10-12 09:42:15
-# @Author  : lizong deng
+# @Author  : Tao Yang
 # @Version : v0.1 (under development)
 
 from suppFunctions import *
